@@ -41,11 +41,11 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-8 pt-6 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-[11px] font-mono text-gray-700">
-            © {new Date().getFullYear()} Sales Ready! — Dadan Satria. Hak Cipta Dilindungi.
+          <p className="text-[11px] font-mono text-gray-500">
+            © {new Date().getFullYear()} Sales Ready! · Ruang Sales — Belajar dari Praktisi. Hak Cipta Dilindungi.
           </p>
-          <p className="text-[11px] font-mono text-gray-700">
-            Dibangun dengan semangat belajar &amp; berbagi.
+          <p className="text-[11px] font-mono text-gray-600">
+            Bekal Praktis Menjadi Tenaga Penjualan.
           </p>
         </div>
       </div>

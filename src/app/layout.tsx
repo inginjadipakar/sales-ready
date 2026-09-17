@@ -23,22 +23,25 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sales Ready! — Ngobrol Bareng Praktisi (Pak Dito)",
+  title: "Sales Ready! — Bekal Praktis Menjadi Tenaga Penjualan | Ruang Sales",
   description:
-    "Belajar memahami dunia sales langsung dari praktisi 25 tahun di Masjid Jami Sosrohadisewoyo, Ngawi (10.00–14.00 WIB). Sesi tatap muka eksklusif 8–20 peserta.",
+    "Program Sales Ready! oleh Ruang Sales — belajar langsung dari Pak Dito, praktisi 25 tahun di bidang Sales & Distribusi. Materi pemula: praktis, simple, dilengkapi sesi praktek Next Plan Action (NPA), role-play, dan konsultasi bebas. Tatap muka 10.00–15.00 WIB di Masjid Sosrohadisewoyo, Ngawi. Kuota 8–20 peserta.",
   keywords: [
     "Sales Ready",
+    "Ruang Sales",
     "Belajar Sales Ngawi",
-    "Workshop Sales Ngawi",
+    "Workshop Sales Pemula",
     "Pak Dito Sales",
     "Sales & Distribusi",
+    "Next Plan Action NPA",
     "Masjid Jami Sosrohadisewoyo",
+    "Materi Pemula Sales",
   ],
-  authors: [{ name: "Sales Ready Community" }],
+  authors: [{ name: "Ruang Sales — Sales Ready Community" }],
   openGraph: {
-    title: "Sales Ready! — Ngobrol Bareng Praktisi (Pak Dito)",
+    title: "Sales Ready! — Bekal Praktis Menjadi Tenaga Penjualan | Ruang Sales",
     description:
-      "Sesi tatap muka 10.00–14.00 WIB bersama praktisi 25 tahun di Masjid Jami Sosrohadisewoyo, Ngawi. Kuota terbatas 8–20 orang.",
+      "Bersama Pak Dito (25 Tahun Sales & Distribusi). Materi pemula: praktis, simple, ada sesi praktek NPA & role-play. Tatap muka 10.00–15.00 WIB di Masjid Sosrohadisewoyo, Ngawi. Kuota 8–20 orang.",
     type: "website",
     locale: "id_ID",
   },

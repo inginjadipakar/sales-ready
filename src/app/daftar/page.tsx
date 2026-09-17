@@ -4,8 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { RegistrationForm } from "@/components/registration-form";
 
 export const metadata = {
-  title: "Pendaftaran — Sales Ready! Ngobrol Bareng Praktisi",
-  description: "Formulir pendaftaran workshop interaktif bersama praktisi sales 25 tahun, Pak Dito di Ngawi.",
+  title: "Pendaftaran — Sales Ready! · Ruang Sales · Ngobrol Bareng Praktisi",
+  description: "Formulir pendaftaran program Sales Ready! — Bekal Praktis Menjadi Tenaga Penjualan. Bersama Pak Dito (25 Tahun Pengalaman Sales & Distribusi) di Masjid Sosrohadisewoyo, Ngawi. 10.00–15.00 WIB.",
 };
 
 export default function DaftarPage() {
@@ -46,11 +46,15 @@ export default function DaftarPage() {
           <div className="flex flex-wrap items-center justify-center gap-2 pt-2 text-xs font-mono">
             <span className="bg-[#131519] text-gray-300 px-3 py-1.5 rounded-lg border border-white/[0.07]">
               <span className="text-emerald-400 font-semibold mr-1.5">WAKTU:</span>
-              10.00 – 14.00 WIB
+              10.00 – 15.00 WIB
             </span>
             <span className="bg-[#131519] text-gray-300 px-3 py-1.5 rounded-lg border border-white/[0.07]">
               <span className="text-emerald-400 font-semibold mr-1.5">VENUE:</span>
               Masjid Jami Sosrohadisewoyo, Ngawi
+            </span>
+            <span className="bg-[#131519] text-gray-300 px-3 py-1.5 rounded-lg border border-white/[0.07]">
+              <span className="text-emerald-400 font-semibold mr-1.5">SESI INTI:</span>
+              180 Menit (3 Materi)
             </span>
             <span className="bg-[#131519] text-gray-300 px-3 py-1.5 rounded-lg border border-white/[0.07]">
               <span className="text-emerald-400 font-semibold mr-1.5">KUOTA:</span>

@@ -61,13 +61,13 @@ export function Hero() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#0C0D0F] border border-emerald-500/40 mb-3 sm:mb-4">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
                 <span className="text-[10px] sm:text-[11px] font-mono font-semibold text-emerald-400 uppercase tracking-widest">
-                  Tatap Muka · Ngawi · 10.00–14.00 WIB
+                  Ruang Sales · Belajar dari Praktisi · Ngawi
                 </span>
               </div>
 
-              {/* Greeting */}
-              <p className="text-gray-300 text-xs sm:text-sm font-body mb-1">
-                Halo, Selamat Datang di Sesi Intim!
+              {/* Tagline / Subtitle dari PDF */}
+              <p className="text-emerald-400 font-mono text-xs sm:text-sm font-semibold tracking-wide mb-1">
+                SALES READY ! — Bekal Praktis Menjadi Tenaga Penjualan
               </p>
 
               {/* Main Headline */}
@@ -82,9 +82,21 @@ export function Hero() {
               </h1>
 
               {/* Sub-description */}
-              <p className="text-gray-300 font-body text-xs sm:text-sm leading-relaxed max-w-md mb-5 sm:mb-6">
-                Sesi diskusi tatap muka langsung bersama <strong className="text-white font-semibold">Pak Dito</strong> — 25 tahun pengalaman nyata di lapangan sales &amp; distribusi nasional. Bukan teori, fokus praktik.
+              <p className="text-gray-300 font-body text-xs sm:text-sm leading-relaxed max-w-md mb-4">
+                Disusun berdasarkan 25 tahun pengalaman praktisi sales &amp; distribusi nasional bersama <strong className="text-white font-semibold">Pak Dito</strong>. Materi pemula yang dirancang praktis, simple, mudah dimengerti, dilengkapi sesi praktik (Next Plan Action), role-play, dan konsultasi bebas.
               </p>
+
+              {/* PDF Highlight Badges */}
+              <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-5">
+                {["Materi Pemula", "Praktis & Simple", "Sesi Praktek", "Konsultasi Bebas"].map((tag) => (
+                  <span
+                    key={tag}
+                    className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-mono bg-white/[0.05] border border-white/10 text-gray-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap items-center gap-3">
@@ -96,10 +108,10 @@ export function Hero() {
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
                 <a
-                  href="#praktisi"
+                  href="#agenda"
                   className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-[#0C0D0F] border border-white/20 hover:border-white/50 text-gray-200 hover:text-white font-body text-xs font-semibold transition-colors"
                 >
-                  Tentang Pak Dito
+                  Lihat Kurikulum
                 </a>
               </div>
             </div>
@@ -115,8 +127,8 @@ export function Hero() {
               {
                 index: "01",
                 label: "Waktu Sesi",
-                value: "10.00 – 14.00 WIB",
-                desc: "4 Jam Efektif",
+                value: "10.00 – 15.00 WIB",
+                desc: "180 Mnt Inti + Konsultasi",
               },
               {
                 index: "02",
@@ -128,13 +140,13 @@ export function Hero() {
                 index: "03",
                 label: "Kapasitas",
                 value: "8–20 Peserta",
-                desc: "Sesi Fokus & Eksklusif",
+                desc: "Efektif Praktik & Role-Play",
               },
               {
                 index: "04",
                 label: "Format Sesi",
                 value: "Tatap Muka Langsung",
-                desc: "Diskusi & Tanya Jawab",
+                desc: "Ceramah, Kasus & Role-Play",
               },
             ].map(({ index, label, value, desc }) => (
               <div key={label} className="flex items-start gap-2.5 py-3.5 px-3 sm:px-5">

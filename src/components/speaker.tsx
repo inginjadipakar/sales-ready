@@ -62,19 +62,16 @@ export function Speaker() {
 
             {/* Bio paragraph */}
             <p className="text-gray-400 font-body text-sm sm:text-base leading-relaxed max-w-lg">
-              Selama 25 tahun saya bekerja di lapangan — membangun tim sales dari 3 orang
-              menjadi ratusan, mengelola distribusi lintas pulau, menghadapi tekanan target,
-              dan menemukan pola yang benar-benar bekerja. Bukan dari buku. Dari pengalaman
-              nyata yang penuh tantangan dan kegagalan.
+              Selama 25 tahun bekerja di lapangan — dari sales ritel, B2B, B2C, hingga distribusi nasional. Pengalaman nyata membangun tim, mengelola territory, melatih mental tahan banting, dan menghadapi tekanan target. Materi Sales Ready! disusun berdasarkan realitas lapangan, bukan teori akademis.
             </p>
 
             {/* Editorial Spec Grid */}
             <div className="grid grid-cols-2 gap-3 pt-2">
               {[
                 { label: "Pengalaman", value: "25+ Tahun", detail: "Praktisi Lapangan Langsung" },
-                { label: "Spesialisasi", value: "Sales & Distribusi", detail: "Jangkauan Nasional" },
-                { label: "Format Sesi", value: "Tatap Muka", detail: "Terbatas 8–20 Peserta" },
-                { label: "Lokasi Acara", value: "Ngawi", detail: "Jawa Timur" },
+                { label: "Spesialisasi", value: "Sales & Distribusi", detail: "B2B, B2C, Ritel, Kanvasser" },
+                { label: "Format", value: "Materi Pemula", detail: "Praktis, Simple, Role-Play" },
+                { label: "Keunggulan", value: "Konsultasi Bebas", detail: "Praktek NPA Langsung" },
               ].map(({ label, value, detail }) => (
                 <div key={label} className="p-3.5 rounded-lg bg-[#131519] border border-white/[0.06]">
                   <p className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-medium">
@@ -93,8 +90,7 @@ export function Speaker() {
             {/* Quote */}
             <blockquote className="border-l-2 border-emerald-500 pl-4 py-1">
               <p className="text-gray-300 font-body italic text-sm leading-relaxed">
-                &ldquo;Sales bukan soal pandai bicara. Sales soal mengerti masalah orang lain dan
-                menawarkan solusi yang tepat waktu.&rdquo;
+                &ldquo;Pengalaman lapangan sering kali memberikan pelajaran yang tidak ditemukan hanya dari teori. Sesi ini dibuat untuk membuka ruang ngobrol langsung mengenai realitas dunia sales.&rdquo;
               </p>
             </blockquote>
 

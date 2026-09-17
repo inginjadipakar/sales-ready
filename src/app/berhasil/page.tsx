@@ -14,7 +14,7 @@ function BerhasilContent() {
   const rawAdminWA = process.env.NEXT_PUBLIC_ADMIN_WHATSAPP || "6281234567890";
   const adminWhatsApp = normalizeWhatsApp(rawAdminWA) || "6281234567890";
   const prefilledMessage = encodeURIComponent(
-    `Halo Admin Sales Ready!, saya sudah mendaftar atas nama ${name} (${whatsapp}) untuk sesi di Masjid Jami Sosrohadisewoyo Ngawi (10.00 - 14.00 WIB). Mohon konfirmasi kehadiran dan informasi selanjutnya. Terima kasih!`
+    `Halo Admin Sales Ready! (Ruang Sales), saya sudah mendaftar atas nama ${name} (${whatsapp}) untuk program Sales Ready! — Bekal Praktis Menjadi Tenaga Penjualan, di Masjid Jami Sosrohadisewoyo Ngawi (10.00–15.00 WIB). Mohon konfirmasi kehadiran dan informasi selanjutnya. Terima kasih!`
   );
   const waUrl = `https://wa.me/${adminWhatsApp}?text=${prefilledMessage}`;
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
@@ -51,7 +51,11 @@ function BerhasilContent() {
         <div className="pt-2.5 border-t border-white/[0.07] space-y-2.5 text-xs font-mono">
           <div className="flex items-baseline justify-between p-2.5 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
             <span className="text-emerald-400 font-semibold">WAKTU:</span>
-            <span className="text-white font-medium">10.00 – 14.00 WIB (4 Jam)</span>
+            <span className="text-white font-medium">10.00 – 15.00 WIB (±5 Jam)</span>
+          </div>
+          <div className="flex items-baseline justify-between p-2.5 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
+            <span className="text-emerald-400 font-semibold">SESI INTI:</span>
+            <span className="text-white font-medium">180 Menit + Konsultasi Bebas</span>
           </div>
           <div className="p-2.5 rounded-lg bg-[#0C0D0F] border border-white/[0.05] space-y-1">
             <div className="flex items-center justify-between">

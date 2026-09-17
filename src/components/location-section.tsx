@@ -31,7 +31,7 @@ export function LocationSection() {
             Jadwal &amp; Lokasi Acara
           </span>
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white mt-3 tracking-tight">
-            Bertemu Langsung di Ngawi
+            Bertemu Langsung di Masjid Sosrohadisewoyo, Ngawi
           </h2>
           <p className="text-gray-400 font-body text-sm sm:text-base mt-3 leading-relaxed">
             Sesi tatap muka eksklusif dirancang intim dan interaktif di tempat yang tenang dan kondusif.
@@ -133,18 +133,22 @@ export function LocationSection() {
                   </span>
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-display font-extrabold text-white">
-                  10.00 – 14.00 WIB
+                  10.00 – 15.00 WIB
                 </h3>
               </div>
 
               <div className="space-y-3 font-mono text-xs text-gray-400">
                 <div className="flex items-center justify-between p-3 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
-                  <span className="text-gray-500">Durasi:</span>
-                  <span className="text-white font-bold">4 Jam Efektif</span>
+                  <span className="text-gray-500">Sesi Inti:</span>
+                  <span className="text-white font-bold">180 Menit (3 Materi)</span>
                 </div>
                 <div className="flex items-center justify-between p-3 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
-                  <span className="text-gray-500">Sesi Istirahat:</span>
-                  <span className="text-white font-bold">Sholat Dzuhur &amp; Coffee</span>
+                  <span className="text-gray-500">Istirahat Ishoma:</span>
+                  <span className="text-white font-bold">12.00–13.00 WIB</span>
+                </div>
+                <div className="flex items-center justify-between p-3 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
+                  <span className="text-gray-500">Konsultasi Bebas:</span>
+                  <span className="text-emerald-400 font-bold">14.30–15.00 WIB</span>
                 </div>
                 <div className="flex items-center justify-between p-3 rounded-lg bg-[#0C0D0F] border border-white/[0.05]">
                   <span className="text-gray-500">Kapasitas:</span>
@@ -153,7 +157,7 @@ export function LocationSection() {
               </div>
 
               <p className="text-xs font-body text-gray-500 leading-relaxed">
-                Disarankan hadir 15 menit lebih awal (pukul 09.45 WIB) untuk registrasi ulang dan persiapan.
+                Disarankan hadir sebelum pukul 10.00 WIB untuk registrasi. Total rangkaian acara ±5 jam termasuk istirahat &amp; konsultasi bebas.
               </p>
             </div>
 

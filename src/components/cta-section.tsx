@@ -33,15 +33,14 @@ export function CtaSection() {
                 Kuota Terbatas
               </span>
               <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white mt-3 tracking-tight leading-tight">
-                Siap Belajar Langsung dari Praktisi?
+                Siap Belajar Langsung dari Praktisi Sales 25 Tahun?
               </h2>
             </div>
 
             <p className="text-gray-400 font-body text-sm sm:text-base leading-relaxed">
               Hanya <span className="text-white font-semibold">8–20 peserta</span> per sesi di{" "}
-              <span className="text-emerald-400 font-medium">Masjid Jami Sosrohadisewoyo, Ngawi</span> (10.00 – 14.00 WIB). Pastikan
-              Anda mendapat tempat sebelum kuota penuh. Pendaftaran ditutup otomatis
-              setelah kapasitas tercapai.
+              <span className="text-emerald-400 font-medium">Masjid Jami Sosrohadisewoyo, Ngawi</span> (10.00 – 15.00 WIB). Sesi pembelajaran inti{" "}
+              <span className="text-white font-semibold">180 menit</span> + konsultasi bebas. Materi pemula — praktis, simple, ada sesi praktek (NPA) &amp; role-play.
             </p>
 
             {/* CTA */}
@@ -54,7 +53,7 @@ export function CtaSection() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <p className="text-[11px] font-mono text-gray-500 mt-4 uppercase tracking-widest">
-                Konfirmasi via WhatsApp · Sesi Tatap Muka di Ngawi
+                Ruang Sales · Sales Ready! · Tatap Muka di Ngawi · 10.00–15.00 WIB
               </p>
             </div>
           </div>

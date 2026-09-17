@@ -50,12 +50,12 @@ export const SALES_EXPERIENCE_LEVELS = [
 ] as const;
 
 export const AVAILABLE_GOALS = [
-  "Memahami dasar sales",
-  "Persiapan masuk dunia kerja",
-  "Meningkatkan kemampuan penjualan",
-  "Belajar dari pengalaman praktisi",
-  "Mengembangkan usaha",
-  "Lainnya",
+  "Memahami dasar & mindset dunia sales",
+  "Mengenal produk, pelanggan & wilayah penjualan",
+  "Siklus penjualan, komunikasi & teknik closing",
+  "Praktik menyusun Next Plan Action (NPA)",
+  "Persiapan masuk ke dunia kerja sales",
+  "Mengembangkan penjualan usaha / UMKM",
 ] as const;
 
 // Step 1 Schema: Data Diri
